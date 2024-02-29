@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title> Administracion Agropecuaria</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="funcionalidad.js"></script>
+</head>
+<body>
+    <img src="../fondo_trigo.jpg" class="img-centro" 
+    alt="Cultivo de trigo"
+    width="30%"
+    hspace="20"
+    >
+    
+    
+    <div class="principal">
+        <h1>Conceptos principales:</h1>
+        <ul>
+            <li id="produccion" onclick="mostrarTexto('produccion')">Factores de producción</li>
+            <li id="planeamiento" onclick="mostrarTexto('planeamiento')">Planeamiento de la empresa agropecuaria</li>
+            <li id="costos" onclick="mostrarTexto('costos')">Costos fijos, variables, directos e indirectos</li>
+            <li id="inversion" onclick="mostrarTexto('inversion')">Viabilidad del proyecto: TIR, VAN</li>
+            <li id="presupuesto" onclick="mostrarTexto('presupuesto')">Presupuesto financiero y Presupuesto económico</li>
+            <li id="mb" onclick="mostrarTexto('mb')">Margen bruto</li>
+            <li id="planificacion" onclick="mostrarTexto('planificacion')">Planificación Forrajera</li>
+        </ul>
+
+    </div>
+
+
+    <div id="textoMostrado"></div>
+    
+    <button onclick="irHome()">Home</button>
+</body>
+
+
+</html>

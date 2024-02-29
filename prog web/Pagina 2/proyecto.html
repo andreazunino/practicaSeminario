@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <script src="peliculas.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    
+    <div>
+        <h1>Te damos la bienvenida!!</h1>
+        <p class="texto">En esta pagina encontraras recomendaciones de peliculas acorde a tu edad y preferencias, esperamos
+            que sea de tu agrado!!.
+        </p>
+    </div>
+    
+    <div class= "peliculas">
+        <p>¿Cual es tu edad? <input id="edad"></p>
+        <button onclick="recomendar('comedia')">Comedia</button>
+        <button onclick="recomendar('drama')">Drama</button>
+        <button onclick="recomendar('fantasia')">Fantasia</button>
+        <button onclick="recomendar('romance')">Romance</button>
+    </div>
+
+    <p class="texto2">Te recomendamos que mires la siguiente pelicula:</p>
+    <h2 id="recomendacion"></h2>
+</body>
+</html>

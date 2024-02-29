@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrar Listas Desordenadas con Flexbox</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: aqua;
+        }
+
+        .bloque {
+            width: 200px;
+            background-color: #880f0f;
+            margin: 10px;
+            padding: 10px;
+            list-style: none;
+        }
+
+        .bloque li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <ul class="bloque">
+            <li>Elemento 1</li>
+        </ul>
+
+        <ul class="bloque">
+            <li>Elemento A</li>
+        </ul>
+
+        <ul class="bloque">
+            <li>Item X</li>
+        </ul>
+        <ul class="bloque">
+            <li>Item X</li>
+        </ul>
+        <ul class="bloque">
+            <li>Item X</li>
+        </ul>
+        <ul class="bloque">
+            <li>Item X</li>
+        </ul>
+        <ul class="bloque">
+            <li>Item X</li>
+        </ul>
+        <ul class="bloque">
+            <li>Item X</li>
+        </ul>
+    </div>
+
+</body>
+</html>

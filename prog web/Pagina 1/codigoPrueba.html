@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Área de un Cuadrado</title>
+</head>
+<body>
+
+<script>
+    // Función anónima para calcular el área de un cuadrado
+    var calcularAreaCuadrado = function (lado) {
+        return lado * lado;
+    };
+
+    // Solicitar al usuario que ingrese el valor del lado
+    var ladoDelCuadrado = prompt("Ingrese el valor del lado del cuadrado:");
+
+    // Convertir la entrada del usuario a un número
+    ladoDelCuadrado = parseFloat(ladoDelCuadrado);
+
+    // Verificar si la entrada es un número válido
+    if (!isNaN(ladoDelCuadrado)) {
+        // Calcular el área del cuadrado
+        var areaDelCuadrado = calcularAreaCuadrado(ladoDelCuadrado);
+        console.log("El área del cuadrado con lado " + ladoDelCuadrado + " es: " + areaDelCuadrado);
+    } else {
+        console.log("Por favor, ingrese un número válido.");
+    }
+</script>
+
+</body>
+</html>

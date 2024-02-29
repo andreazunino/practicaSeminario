@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrar Bloque de Divs con Flexbox</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Asegura que la altura del cuerpo sea al menos igual a la altura de la ventana gráfica */
+            margin: 0;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .bloque {
+            width: 200px;
+            height: 100px;
+            background-color: #b91212;
+            margin: 1px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="bloque">cajon 1</div>
+        <div class="bloque">cajon 2</div>
+        <div class="bloque">cajon 3</div>
+    </div>
+
+</body>
+</html>

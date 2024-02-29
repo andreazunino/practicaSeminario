@@ -1,0 +1,118 @@
+body {
+    /*background-image: url('fondo.jpg');  Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Elimina el margen por defecto del cuerpo */
+    padding: 0; /* Elimina el relleno por defecto del cuerpo */
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la ventana gráfica */
+    
+    color: rgb(14, 13, 13); /* Color del texto, para que sea legible en la imagen de fondo */
+    font-family: Arial, sans-serif; /* Tipo de fuente para el texto */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionarse */
+}
+
+.prueba{
+    color:blue;
+    background-color: aquamarine;
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+}
+
+ul{
+    list-style: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    width: 120px; /* Ajusta el ancho según tus necesidades */
+    padding: 10px; /* Añade espacio alrededor de los cajones */
+    border: 1px solid #888; /* Borde del contenedor */
+    background-color: blue; /* Color de fondo del contenedor */
+    margin: 20px auto; /* Ajusta el margen según tus necesidades */
+}
+
+.cajon {
+    width: 100%; /* Ancho del cajón al 100% del contenedor */
+    height: 50px; /* Altura de cada cajón */
+    background-color: #ddd; /* Color de fondo de cada cajón */
+    border: 1px solid #888; /* Borde de cada cajón */
+    margin-bottom: 5px; /* Espacio entre cajones */
+    text-align: center;
+}
+
+
+.flexbox-prueba {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px; /* Añade espacio alrededor de los cajones */
+  border: 1px solid #888; /* Borde del contenedor */
+  background-color: blue; /* Color de fondo del contenedor */
+  margin: 20px auto; /* Ajusta el margen según tus necesidades */
+}
+
+.contenido {
+    width: 100%; /* Ancho del cajón al 100% del contenedor */
+    height: 50px; /* Altura de cada cajón */
+    background-color: #ddd; /* Color de fondo de cada cajón */
+    border: 1px solid #888; /* Borde de cada cajón */
+    margin-bottom: 5px; /* Espacio entre cajones */
+    text-align: center;
+  }
+
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

@@ -32,4 +32,15 @@ function restaPrueba(){
 }
 
 let prueba= restaPrueba();
-console.log(prueba);
+/*console.log(prueba);*/
+
+let global5=10;
+
+function sumaPrueba(){
+    let local=2
+    return 6+local;
+}
+
+let resultadoSumaPrueba = sumaPrueba()
+console.log("El resultado de la suma es", resultadoSumaPrueba);
+
